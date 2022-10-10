@@ -1,0 +1,45 @@
+.slick-prev:before,
+.slick-next:before {
+  content: unset;
+}
+@media only screen and (min-width: 480px) {
+  .slick-prev,
+  .slick-prev:focus {
+    content: unset;
+    background-image: url(../icons/chevron-circled-left.svg);
+    padding: 15px;
+  }
+  .slick-next,
+  .slick-next:focus {
+    content: unset;
+    background-image: url(../icons/chevron-circled-right.svg);
+    padding: 15px;
+  }
+
+  .slick-prev:hover {
+    background-image: url(../icons/chevron-circled-left-hover.svg);
+  }
+
+  .slick-next:hover {
+    background-image: url(../icons/chevron-circled-right-hover.svg);
+  }
+
+  .slick-prev {
+    left: unset;
+    right: 45px;
+    top: 110%;
+  }
+
+  .slick-next {
+    right: 5px;
+    top: 110%;
+  }
+
+  .slick-prev:before {
+    color: black;
+  }
+
+  .slick-next:before {
+    color: black;
+  }
+}

@@ -1,13 +1,10 @@
-import { HelloWorld } from "../src/components/HelloWorld";
+import type { AppProps } from "next/app";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import "../public/css/styles.css";
-import React from "react";
 
-function HomePage() {
-  return (
-    <React.StrictMode>
-      <HelloWorld />
-    </React.StrictMode>
-  );
-}
+const VolvoApp = ({ Component, pageProps }: AppProps) => {
+  return <Component {...pageProps} />;
+};
 
-export default HomePage;
+export default VolvoApp;

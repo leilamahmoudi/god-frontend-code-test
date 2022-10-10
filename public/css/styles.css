@@ -1,4 +1,8 @@
+@import "../css/carItem.css";
+@import "../css/carsCarousel.css";
+@import "../css/carsContainer.css";
+
 body {
-  background: steelblue;
-  color: white;
+  font-family: "Volvo Novum", Arial, sans-serif;
+  margin-top: 20px;
 }

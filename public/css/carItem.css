@@ -1,0 +1,45 @@
+/* Section start */
+/* This section is to override VCC-UI css attribures using the CSS specification hierarchy */
+#car__item {
+  box-shadow: transparent 0 0 0 !important;
+}
+
+#car__content {
+  padding: 16px 10px !important;
+}
+
+.car__item-link {
+  margin: 0 10px;
+  font-size: 0.75rem !important;
+}
+/* Section end */
+
+.car__item-bodyType {
+  color: #707070;
+}
+.car__item-modelName {
+  font-weight: 500;
+  font-size: 16px;
+}
+.car__item-modelType {
+  color: #707070;
+  font-size: 16px;
+}
+
+.car__item-link-wrapper {
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+}
+
+.car__item-imageUrl {
+  margin: 12px 0 7px 0;
+}
+
+@media only screen and (min-width: 480px) {
+  .car__item-text-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
